@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Notizie">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <rect x="116" y="18" width="88" height="164" rx="14" fill="#e2e8f0"/>
+  <rect x="124" y="32" width="72" height="136" rx="6" fill="url(#scr)"/>
+  <rect x="130" y="40" width="60" height="30" rx="4" fill="#e2e8f0"/>
+  <rect x="136" y="47" width="48" height="5" rx="2.5" fill="#94a3b8"/>
+  <rect x="136" y="57" width="34" height="5" rx="2.5" fill="#94a3b8"/>
+  <rect x="130" y="78" width="60" height="30" rx="4" fill="#e2e8f0"/>
+  <rect x="136" y="85" width="48" height="5" rx="2.5" fill="#94a3b8"/>
+  <rect x="136" y="95" width="40" height="5" rx="2.5" fill="#94a3b8"/>
+  <rect x="130" y="116" width="60" height="30" rx="4" fill="#e2e8f0"/>
+  <rect x="136" y="123" width="48" height="5" rx="2.5" fill="#94a3b8"/>
+  <rect x="136" y="133" width="28" height="5" rx="2.5" fill="#94a3b8"/>
+  <circle cx="210" cy="30" r="14" fill="#ef4444"/>
+  <text x="210" y="35" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+</svg>
