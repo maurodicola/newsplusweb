@@ -304,3 +304,17 @@ a.writing:focus-visible {
 }
 
 .site-footer a:hover { text-decoration: underline; }
+
+.prose .contact {
+  margin-top: 1.8rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.05rem;
+}
+
+.prose .contact a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.prose .contact a:hover { text-decoration: underline; }
