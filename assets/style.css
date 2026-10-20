@@ -526,3 +526,27 @@ a.writing:focus-visible {
   color: var(--muted);
   text-align: center;
 }
+
+.prose blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.3rem;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  border-radius: 0 10px 10px 0;
+  font-style: italic;
+}
+
+.prose blockquote p { margin: 0 0 0.6rem; }
+
+.prose blockquote .source {
+  font-style: normal;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.9rem;
+  margin: 0.8rem 0 0;
+}
+
+.prose blockquote .source a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
