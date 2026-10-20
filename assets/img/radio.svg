@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Radio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <line x1="200" y1="62" x2="236" y2="16" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="236" cy="16" r="4" fill="#cbd5e1"/>
+  <rect x="70" y="60" width="180" height="104" rx="16" fill="url(#body)"/>
+  <circle cx="122" cy="112" r="32" fill="#e2e8f0"/>
+  <circle cx="122" cy="112" r="22" fill="#94a3b8"/>
+  <circle cx="122" cy="112" r="8" fill="#e2e8f0"/>
+  <rect x="172" y="84" width="58" height="22" rx="4" fill="#e2e8f0"/>
+  <line x1="186" y1="88" x2="186" y2="102" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="186" cy="132" r="9" fill="#e2e8f0"/>
+  <circle cx="216" cy="132" r="9" fill="#e2e8f0"/>
+</svg>
