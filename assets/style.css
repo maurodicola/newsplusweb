@@ -171,3 +171,69 @@ main {
   font-weight: 500;
   font-style: italic;
 }
+
+/* Elenco degli scritti */
+.intro {
+  max-width: 680px;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+}
+
+.writings {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.writing {
+  display: block;
+  padding: 1.1rem 1.3rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.writing {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.writing:hover,
+a.writing:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.writing h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  color: var(--accent);
+}
+
+.writing p {
+  margin: 0;
+}
+
+.writing .meta {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: var(--border);
+  font-size: 0.75rem;
+}
+
+.writing.featured {
+  border-left-width: 6px;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(167, 139, 250, 0.08)), var(--surface);
+}
