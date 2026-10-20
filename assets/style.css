@@ -499,3 +499,30 @@ a.writing:focus-visible {
   color: var(--accent);
   text-decoration: none;
 }
+
+.prose .part-title .kicker {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.prose.verse-mode p {
+  margin-bottom: 0.55rem;
+}
+
+.prose .stanza {
+  height: 1.2rem;
+}
+
+.prose .term {
+  margin: 1.4rem 0 0.3rem;
+}
+
+.prose .note {
+  color: var(--muted);
+  text-align: center;
+}
