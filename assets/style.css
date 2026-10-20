@@ -556,3 +556,9 @@ a.writing:focus-visible {
   text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
+
+.prose blockquote p a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
