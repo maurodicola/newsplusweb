@@ -318,3 +318,97 @@ a.writing:focus-visible {
 }
 
 .prose .contact a:hover { text-decoration: underline; }
+
+.article-header .subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 1.15rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.prose h2 {
+  margin: 2.4rem 0 1rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.35;
+  color: var(--accent);
+}
+
+.prose h3 {
+  margin: 2rem 0 0.8rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+.prose ul {
+  margin: 0 0 1.3rem;
+  padding-left: 1.4rem;
+}
+
+.prose li {
+  margin-bottom: 0.4rem;
+}
+
+.prose .closing {
+  margin-top: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Animazione incorporata (es. lemniscata) */
+.stage {
+  margin: 0 0 2.5rem;
+}
+
+.stage iframe {
+  display: block;
+  width: 100%;
+  height: 70vh;
+  min-height: 360px;
+  max-height: 640px;
+  border: 0;
+  border-radius: 12px;
+  background: #000;
+  box-shadow: var(--shadow);
+}
+
+.stage figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.stage figcaption a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.stage figcaption a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .stage iframe {
+    height: 60vh;
+    min-height: 300px;
+  }
+}
+
+/* Dialoghi */
+.dialogue .line {
+  margin-bottom: 1rem;
+}
+
+.dialogue .speaker {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+}
+
+.dialogue .human .speaker { color: var(--accent); }
+.dialogue .ai .speaker { color: #7c3aed; }
+
+@media (prefers-color-scheme: dark) {
+  .dialogue .ai .speaker { color: #b9a4ff; }
+}
