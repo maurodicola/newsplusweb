@@ -550,3 +550,9 @@ a.writing:focus-visible {
   font-weight: 600;
   text-decoration: none;
 }
+
+.prose .verses a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
