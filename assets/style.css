@@ -562,3 +562,28 @@ a.writing:focus-visible {
   text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
+
+/* Testi di AI Haiku Gaea */
+.article-header .author-note {
+  max-width: 520px;
+  margin: 1rem auto 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.epigraph {
+  margin: 0 auto 2.5rem;
+  max-width: 420px;
+  text-align: center;
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.prose .poem {
+  margin: 0 0 1.6rem;
+  line-height: 1.75;
+}
