@@ -622,3 +622,79 @@ a.writing:focus-visible {
   font-size: 0.85em;
   color: var(--muted);
 }
+
+/* Avviso browser interno di Facebook / Instagram */
+.inapp-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0.9rem 2.8rem 0.9rem 1rem;
+  background: #fff7e6;
+  color: #5c3b00;
+  border-bottom: 1px solid #f0c36d;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.inapp-msg,
+.inapp-hint {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.inapp-hint {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.inapp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 900px;
+  margin: 0.7rem auto 0;
+}
+
+.inapp-btn {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border: 0;
+  border-radius: 8px;
+  background: #1e3a8a;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inapp-btn-alt {
+  background: transparent;
+  color: #1e3a8a;
+  border: 1px solid #1e3a8a;
+}
+
+.inapp-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  .inapp-bar {
+    background: #3a2a05;
+    color: #ffe4a8;
+    border-bottom-color: #7a5a12;
+  }
+  .inapp-btn { background: #8ab4ff; color: #0f1419; }
+  .inapp-btn-alt { background: transparent; color: #8ab4ff; border-color: #8ab4ff; }
+}
