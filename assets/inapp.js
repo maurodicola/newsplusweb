@@ -4,13 +4,15 @@
   var ua = navigator.userAgent || '';
   if (!/FBAN|FBAV|FB_IAB|FBIOS|FB4A|Instagram/i.test(ua)) return;
 
-  var KEY = 'npw-inapp-chiuso';
-  try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
-
   var isAndroid = /Android/i.test(ua);
   var isIOS = /iPhone|iPad|iPod/i.test(ua);
   var app = /Instagram/i.test(ua) ? 'Instagram' : 'Facebook';
-  var url = location.href;
+  // Facebook aggiunge ?fbclid=… (tracciamento): il sito non usa parametri, quindi li togliamo
+  var url = location.origin + location.pathname + location.hash;
+  try { if (location.search) history.replaceState(null, '', url); } catch (e) {}
+
+  var KEY = 'npw-inapp-chiuso';
+  try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
