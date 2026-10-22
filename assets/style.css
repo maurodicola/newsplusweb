@@ -600,3 +600,25 @@ a.writing:focus-visible {
   text-align: center;
   font-style: italic;
 }
+
+/* Home: 8 schede, 4 per riga su schermi larghi */
+.home main {
+  max-width: 1240px;
+}
+
+.cards-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1100px) {
+  .cards-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .cards-4 { grid-template-columns: 1fr; }
+}
+
+.card .ext {
+  font-size: 0.85em;
+  color: var(--muted);
+}

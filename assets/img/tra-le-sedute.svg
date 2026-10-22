@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Quaderno aperto con penna e luna">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <!-- luna -->
+  <circle cx="262" cy="42" r="16" fill="#e2e8f0"/>
+  <circle cx="270" cy="36" r="14" fill="#16295f"/>
+  <circle cx="44" cy="30" r="1.4" fill="#fff" opacity="0.8"/>
+  <circle cx="70" cy="56" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="236" cy="24" r="1.2" fill="#fff" opacity="0.7"/>
+  <!-- quaderno aperto -->
+  <path d="M60 60 Q110 50 160 66 L160 168 Q110 152 60 162 Z" fill="#e2e8f0"/>
+  <path d="M260 60 Q210 50 160 66 L160 168 Q210 152 260 162 Z" fill="#cbd5e1"/>
+  <line x1="160" y1="66" x2="160" y2="168" stroke="#94a3b8" stroke-width="2"/>
+  <!-- righe: haiku di tre versi a sinistra -->
+  <g stroke="#94a3b8" stroke-width="4" stroke-linecap="round">
+    <line x1="80" y1="88" x2="136" y2="92"/>
+    <line x1="80" y1="104" x2="146" y2="108"/>
+    <line x1="80" y1="120" x2="126" y2="123"/>
+  </g>
+  <!-- cuore delle emozioni a destra -->
+  <path d="M206 96 c-6 -12 -24 -8 -20 6 c2 8 14 16 20 22 c6 -6 18 -14 20 -22 c4 -14 -14 -18 -20 -6 Z" fill="url(#acc)"/>
+  <!-- penna -->
+  <g transform="rotate(-35 236 140)">
+    <rect x="200" y="134" width="64" height="10" rx="3" fill="#38bdf8"/>
+    <polygon points="264,134 276,139 264,144" fill="#e2e8f0"/>
+    <rect x="200" y="134" width="12" height="10" rx="2" fill="#6366f1"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Fumetti di conversazione">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <!-- fumetto grande -->
+  <rect x="62" y="40" width="130" height="80" rx="18" fill="url(#acc)"/>
+  <polygon points="92,118 84,146 118,118" fill="#6366f1"/>
+  <circle cx="102" cy="80" r="7" fill="#e2e8f0"/>
+  <circle cx="127" cy="80" r="7" fill="#e2e8f0"/>
+  <circle cx="152" cy="80" r="7" fill="#e2e8f0"/>
+  <!-- fumetto piccolo -->
+  <rect x="152" y="96" width="110" height="62" rx="16" fill="#e2e8f0"/>
+  <polygon points="236,156 248,178 220,156" fill="#e2e8f0"/>
+  <g stroke="#94a3b8" stroke-width="5" stroke-linecap="round">
+    <line x1="172" y1="118" x2="240" y2="118"/>
+    <line x1="172" y1="136" x2="220" y2="136"/>
+  </g>
+  <!-- cuore -->
+  <path d="M262 62 c-4 -8 -16 -5 -13 4 c1 5 9 10 13 14 c4 -4 12 -9 13 -14 c3 -9 -9 -12 -13 -4 Z" fill="#f472b6"/>
+</svg>

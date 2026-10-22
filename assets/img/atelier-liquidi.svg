@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Flaconi e contagocce">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <!-- flacone grande -->
+  <rect x="104" y="44" width="22" height="16" rx="3" fill="#94a3b8"/>
+  <rect x="96" y="58" width="38" height="12" rx="4" fill="#cbd5e1"/>
+  <rect x="84" y="68" width="62" height="96" rx="10" fill="#e2e8f0"/>
+  <rect x="90" y="104" width="50" height="54" rx="6" fill="url(#acc)"/>
+  <!-- flacone piccolo -->
+  <rect x="176" y="70" width="16" height="12" rx="3" fill="#94a3b8"/>
+  <rect x="170" y="80" width="28" height="10" rx="3" fill="#cbd5e1"/>
+  <rect x="162" y="88" width="44" height="76" rx="8" fill="#e2e8f0"/>
+  <rect x="167" y="122" width="34" height="36" rx="5" fill="#a78bfa"/>
+  <!-- contagocce e goccia -->
+  <rect x="226" y="40" width="10" height="18" rx="4" fill="#94a3b8"/>
+  <rect x="228" y="56" width="6" height="52" rx="3" fill="#e2e8f0"/>
+  <path d="M231 118 C224 128 222 134 222 138 a9 9 0 0 0 18 0 C240 134 238 128 231 118 Z" fill="#38bdf8"/>
+  <!-- scala graduata -->
+  <g stroke="#94a3b8" stroke-width="2">
+    <line x1="146" y1="80" x2="152" y2="80"/><line x1="146" y1="100" x2="152" y2="100"/>
+    <line x1="146" y1="120" x2="152" y2="120"/><line x1="146" y1="140" x2="152" y2="140"/>
+  </g>
+</svg>
