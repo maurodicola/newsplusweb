@@ -587,3 +587,16 @@ a.writing:focus-visible {
   margin: 0 0 1.6rem;
   line-height: 1.75;
 }
+
+.prose p a,
+.prose li a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.prose .haiku {
+  margin: 2rem 0;
+  text-align: center;
+  font-style: italic;
+}
